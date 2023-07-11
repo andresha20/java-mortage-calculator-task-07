@@ -40,6 +40,8 @@ public class Main {
             System.out.println(outputChatbox);
             outputChatbox = "Payback: " + String.valueOf(NumberFormat.getCurrencyInstance().format(numberOfMonthlyPayments * mortgage));
             System.out.println(outputChatbox);
+            outputChatbox = "Success! Closing...";
+            System.out.println(outputChatbox);
             System.exit(1);
         }
     }
